@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Needit M2m Personrelations Persons" max_length="40" name="x_58872_needit_m2m_personrelations_persons" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="PersonRelation" max_length="32" name="personrelation" reference="x_58872_needit_personrelation" type="reference"/>
+        <element attributes="encode_utf8=false" label="Persons" max_length="32" name="persons" reference="x_58872_needit_persons" type="reference"/>
+        <index name="index">
+            <element name="persons"/>
+        </index>
+        <index name="index2">
+            <element name="personrelation"/>
+        </index>
+    </element>
+</database>

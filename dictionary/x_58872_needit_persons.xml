@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Persons" max_length="40" name="x_58872_needit_persons" sizeclass="0" type="collection">
+        <element label="Children" max_length="40" name="children" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parents" max_length="40" name="parents" type="string"/>
+        <element label="Vorname" max_length="40" name="vorname" type="string"/>
+    </element>
+</database>
